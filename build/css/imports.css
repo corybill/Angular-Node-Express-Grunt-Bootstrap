@@ -1,0 +1,326 @@
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\node_modules\grunt-contrib-stylus\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\constants.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\fonts.styl */
+
+@font-face {
+  font-family: MainFont;
+  font-style: normal;
+  src: url("../fonts/monotype/monotype.ttf"), url("../fonts/monotype/monotype.eot"), url("../fonts/monotype/monotype.svg"), url("../fonts/monotype/monotype.woff");
+}
+
+@font-face {
+  font-family: MyScript;
+  font-style: normal;
+  src: url("../fonts/script/script-webfont.ttf"), url("../fonts/script/script-webfont.eot"), url("../fonts/script/script-webfont.svg"), url("../fonts/script/script-webfont.woff");
+}
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\colors.styl */
+
+/* line 3 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+body {
+  font-family: MainFont;
+  color: #999;
+  font-weight: 100;
+  margin: 0px;
+  overflow-y: scroll;
+  overflow-y: -moz-scrollbars-vertical;
+  overflow-x: hidden;
+}
+
+/* line 16 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.navigation {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
+  margin-top: 50px;
+}
+
+/* line 20 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.navigation .nav-item {
+  font-size: 21px;
+  color: #993;
+  float: left;
+  list-style-type: none;
+}
+
+/* line 26 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+/* line 27 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.navigation .nav-item a {
+  color: #993;
+  text-decoration: none;
+}
+
+/* line 31 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.navigation .first-nav-item {
+  margin-left: 45px;
+}
+
+/* line 33 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.navigation .non-first-nav-item {
+  margin-left: 70px;
+}
+
+/* line 36 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.nav-spacer {
+  height: 40px;
+}
+
+/* line 39 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+/* line 40 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.main-nav-color.nav-color-changer a {
+  color: #993;
+}
+
+/* line 43 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+/* line 44 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\main\client\styles\main.styl */
+
+.registry-nav-color.nav-color-changer a {
+  color: #fff;
+}
+
+/* line 46 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 1 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home {
+  height: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  max-height: 625px;
+}
+
+/* line 5 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .home-background {
+  position: absolute;
+}
+
+/* line 8 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 10 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .name-and-date {
+  position: relative;
+  width: 490px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 65px;
+  float: left;
+}
+
+/* line 18 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence {
+  position: relative;
+}
+
+/* line 21 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li {
+  list-style-type: none;
+}
+
+/* line 23 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li span {
+  width: 390px;
+  margin-left: 120px;
+  height: 595px;
+  margin-top: 15px;
+  position: absolute;
+  color: transparent;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: imageAnimation 7s linear infinite 0s;
+  -ms-animation: imageAnimation 7s linear infinite 0s;
+  animation: imageAnimation 7s linear infinite 0s;
+}
+
+/* line 50 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 51 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 52 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(1) span {
+  background-image: url("../images/home/sequence/falling-leaves-2.jpg");
+  background-size: auto 595px;
+}
+
+/* line 56 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 57 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 58 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(2) span {
+  background-image: url("../images/home/sequence/falling-leaves-3.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* line 67 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 68 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 69 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(3) span {
+  background-image: url("../images/home/sequence/falling-leaves-4.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+/* line 78 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 79 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 80 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(4) span {
+  background-image: url("../images/home/sequence/falling-leaves-5.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+/* line 89 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 90 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 91 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(5) span {
+  background-image: url("../images/home/sequence/falling-leaves-6.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+/* line 100 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 101 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 102 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(6) span {
+  background-image: url("../images/home/sequence/falling-leaves-7.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+/* line 111 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 112 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 113 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+.home .image-sequence li:nth-child(7) span {
+  background-image: url("../images/home/sequence/falling-leaves-8.jpg");
+  background-size: auto 595px;
+  -webkit-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 38 : c:\Users\Cory\IdeaProjects\Angular-Node-Express-Grunt\modules\home\client\styles\home.styl */
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  7% {
+    opacity: 1;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  28% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
